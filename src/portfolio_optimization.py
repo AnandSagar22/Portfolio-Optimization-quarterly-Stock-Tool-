@@ -9,11 +9,18 @@ NUM_TRADING_DAYS = 252
 # we will generate random portfolios
 NUM_PORTFOLIOS = 10000
 
-# List of popular Indian stock symbols
+# List of popular USA stock symbols
 available_stocks = [
     'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'FB', 'NVDA', 'BRK-B', 'JPM', 'JNJ',
     'V', 'WMT', 'PG', 'UNH', 'DIS', 'HD', 'MA', 'PYPL', 'VZ', 'INTC'
 ]
+
+#  REPLACE available_stocks FOR INDIAN STOCKS
+''' available_stocks = [
+     'RELIANCE.NS', 'TCS.NS', 'INFY.NS', 'HDFCBANK.NS', 'ICICIBANK.NS', 'HINDUNILVR.NS', 'KOTAKBANK.NS',
+     'ITC.NS', 'BAJFINANCE.NS', 'LT.NS', 'AXISBANK.NS', 'SBIN.NS', 'BHARTIARTL.NS', 'ASIANPAINT.NS',
+     'HCLTECH.NS', 'TITAN.NS', 'SUNPHARMA.NS', 'WIPRO.NS', 'ULTRACEMCO.NS', 'MARUTI.NS'
+] '''
 
 # Display the available stock symbols
 print("Available stock symbols:")
