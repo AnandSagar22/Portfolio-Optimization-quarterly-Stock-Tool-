@@ -7,8 +7,8 @@ A Python tool demonstrating Modern Portfolio Theory: download historical prices 
 ## Included files
 - `README.md` 
 - `requirements.txt` (Python dependencies)    
-- `src/portfolio.py` (main script — single-file runnable)  
-- `sample_output/example_report.txt`
+- `src/stock_portfolio_optimization.py` (main script — single-file runnable)  
+- `sample_output.txt`
 
 ---
 
@@ -44,5 +44,5 @@ src/stock_portfolio_optimization.py — main script.
 
 requirements.txt — libraries to install (numpy, pandas, matplotlib, scipy, yfinance).
 
-sample_output/example_report.txt — short example for quick viewing.
+sample_output.txt — short example for quick viewing.
 
