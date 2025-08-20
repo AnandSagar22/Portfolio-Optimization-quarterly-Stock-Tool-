@@ -35,6 +35,7 @@ for i in range(5):
             print("Invalid input. Please enter a number.")
 
 # historical data - define START and END dates
+# Change dates according to your needs
 start_date = '2020-03-28'
 end_date = '2025-03-28'
 
